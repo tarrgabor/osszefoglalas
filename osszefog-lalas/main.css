@@ -1,45 +1,45 @@
 body{
     background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(196,91,247,1) 100%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(106,0,255,1) 100%);
 }
+ 
 
-.kepek{
-    margin-top: 100px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 100px;
+.kepek {
+  display: flex;
+  align-items:center;
+  justify-content: center;
 }
 
 .slide-left1 {
     position: absolute;
--webkit-animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 30s both;
-animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 30s both;
+-webkit-animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 42s both;
+animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 42s both;
 }
 .slide-left2 {
     position: absolute;
--webkit-animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 25s both;
-animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 25s both;
+-webkit-animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 35s both;
+animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 35s both;
 }
 .slide-left3 {
     position: absolute;
--webkit-animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 20s both;
-animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 20s both;
+-webkit-animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 28s both;
+animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 28s both;
 }
 
 .slide-left4 {
     position: absolute;
--webkit-animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 15s both;
-animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 15s both;
+-webkit-animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 21s both;
+animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 21s both;
 }
 .slide-left5 {
     position: absolute;
--webkit-animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 10s both;
-animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 10s both;
+-webkit-animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 14s both;
+animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 14s both;
 }
 .slide-left6 {
     position: absolute;
--webkit-animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 5s both;
-animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 5s both;
+-webkit-animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 7s both;
+animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 7s both;
 }
 @-webkit-keyframes slide-left {
   0% {
@@ -47,8 +47,8 @@ animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 5s both;
             transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(-1500px);
-            transform: translateX(-1500px);
+    -webkit-transform: translateX(-2000px);
+            transform: translateX(-2000px);
   }
 }
 @keyframes slide-left {
@@ -57,7 +57,12 @@ animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 5s both;
             transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(-1500px);
-            transform: translateX(-1500px);
+    -webkit-transform: translateX(-2000px);
+            transform: translateX(-2000px);
   }
+}
+nav{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
